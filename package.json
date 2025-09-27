@@ -1,23 +1,23 @@
 {
-  "name": "aula-api",
+  "name": "desenvolvimento-web-full-stack-trabalho-de-recu",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
-    "test:db": "node ./src/db.test.js"
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnHsiangChien/Desenvolvimento-Web-Full-Stack-Trabalho-de-Recu.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^17.2.2",
-    "express": "^5.1.0",
-    "mysql2": "^3.14.5"
+  "bugs": {
+    "url": "https://github.com/EnHsiangChien/Desenvolvimento-Web-Full-Stack-Trabalho-de-Recu/issues"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+  "homepage": "https://github.com/EnHsiangChien/Desenvolvimento-Web-Full-Stack-Trabalho-de-Recu#readme",
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
